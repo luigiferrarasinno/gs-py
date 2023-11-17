@@ -1,3 +1,8 @@
+# login master = python
+# senha master = fiap
+
+
+
 meu_dicionario = {
     'henrique': {'2011': ['10 gramas de morfina dada', '10/10/2023', '13:42']},
     'maria': {'1043': ['50 gramas paracetamol', '10/10/2023', '14:00']},
