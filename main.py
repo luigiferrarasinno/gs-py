@@ -2,17 +2,19 @@
 # senha master = fiap
 
 
-
+#dicionario de pacientes
 meu_dicionario = {
     'henrique': {'2011': ['10 gramas de morfina dada', '10/10/2023', '13:42']},
     'maria': {'1043': ['50 gramas paracetamol', '10/10/2023', '14:00']},
-    'a': {'a': ['50 gramas paracetamol', '10/10/2023', '14:00'] },
+    'pedro': {'3529': ['50 gramas de dorflex', '10/10/2023', '14:10'] },
 }
-usuariodic = {}
+#dicionario de usuarios
+usuariodic = {'luigi': '123'}
 usuariologado = False
+#dicionario de medicos
 medicos={'larissa': '57742',
          'fernando': "98047",
-         'a':'a'}
+         'bianca':'7893'}
 
 def adicionar_tarefa():
    
