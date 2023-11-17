@@ -146,7 +146,7 @@ def criar_medico():
 
 
 
-opcao = int(input("Digite:\n1 para cadastrar usuário\n2 fazer login\n3 para ver o histórico de atividades\n4 para adicionar tarefa (necessita login de médico)\n5 para adicionar pacientes (necessita login de médico)\n6 para deslogar\n7 para acesso a camera do paciente\n8 para addicionar medico (master necessario)\n9 para ver medicos(master necessario)\n0 para sair\n"))
+opcao = int(input("Digite:\n1 para criar usuário\n2 fazer login\n3 para ver o histórico de atividades\n4 para adicionar tarefa (necessita login de médico)\n5 para adicionar pacientes (necessita login de médico)\n6 para deslogar\n7 para acesso a camera do paciente\n8 para addicionar medico (master necessario)\n9 para ver medicos(master necessario)\n0 para sair\n"))
 
 while opcao != 0:
     match opcao:
@@ -191,5 +191,5 @@ while opcao != 0:
         case _:
             print("opção invalida")
         
-    opcao = int(input("Digite:\n1 para cadastrar usuário\n2 fazer login\n3 para ver o histórico de atividades\n4 para adicionar tarefa (necessita login de médico)\n5 para adicionar pacientes (necessita login de médico)\n6 para deslogar\n7 para acesso a camera do paciente\n8 para addicionar medico(master necessario)\n9 para ver medicos(master necessario)\n0 para sair\n"))
+    opcao = int(input("Digite:\n1 para criar usuário\n2 fazer login\n3 para ver o histórico de atividades\n4 para adicionar tarefa (necessita login de médico)\n5 para adicionar pacientes (necessita login de médico)\n6 para deslogar\n7 para acesso a camera do paciente\n8 para addicionar medico(master necessario)\n9 para ver medicos(master necessario)\n0 para sair\n"))
     
